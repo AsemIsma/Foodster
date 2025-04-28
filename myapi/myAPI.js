@@ -37,7 +37,7 @@ const dishes = [
     }, {
         id:2,
         dishName: 'Great Pizza',
-        dishImgSrc: 'https://img.buzzfeed.com/buzzfeed-static/static/20…size=600:*&output-format=auto&output-quality=auto',
+        dishImgSrc: 'https://img.buzzfeed.com/buzzfeed-static/static/2018-07/12/13/asset/buzzfeed-prod-web-06/sub-buzz-1716-1531418025-2.png?downsize=600:*&output-format=auto&output-quality=auto',
         dishIngredients: {
             flour: "7 and 1/4 cup",
             salt: "1 and 1/2 teaspoon",
