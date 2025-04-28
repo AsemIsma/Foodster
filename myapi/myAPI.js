@@ -1,7 +1,9 @@
 const Joi = require('joi');
 const express = require('express');
+const cors = require('cors');
 const app = express();
 
+app.use(cors());
 app.use(express.json());
 
 const dishes = [
@@ -32,6 +34,73 @@ const dishes = [
         ],
         source: 'https://thecookingfoodie.com/recipe/the-best-chocolate-cupcakes-recipe/',
         author: 'David from TheCookingFoodie',
+    }, {
+        id:2,
+        dishName: 'Great Pizza',
+        dishImgSrc: 'https://img.buzzfeed.com/buzzfeed-static/static/20…size=600:*&output-format=auto&output-quality=auto',
+        dishIngredients: {
+            flour: "7 and 1/4 cup",
+            salt: "1 and 1/2 teaspoon",
+            tomatoSauce: "28 ounces",
+            cheese: "200g",
+            yeast: "2 teaspoon",
+            sugar: "1 teaspoon",
+            oliveOil: "6 tablespoon",
+        },
+        dishPrepSteps: [
+            "For your dough: get the water to the right temperature to bloom the yeast.",
+            "Make sure your yeast is alive and reacting.",
+            "When it comes to kneading the dough, don't be lazy — and really take the time to do it.",
+            "This is the kneading motion you should go for:",
+            "To know when you're done kneading, press the dough with your finger. If it springs back right away, it's ready.",
+            "Coat the bowl where the dough will rise with olive oil — and coat the top of the dough, too.",
+            "If you can, let the dough rise overnight.",
+            "After the dough has risen, knead for another minute or two to even out the dough and release some of the air bubbles.",
+            "Once you've shaped each ball of dough, cover them with a bit of flour and a towel and let them rise for another hour.",
+            "Before working on your toppings and putting the pizza together, get your oven as hot as it can be.",
+            "And preheat a pan or pizza stone in the oven to create great bottom heat.",
+            "There are several techniques you can use to stretch the dough, but if you want to play it safe, just use your hands to gently stretch it:",
+            "Assemble the pizza on a turned-over baking sheet sprinkled with a bit of semolina.",
+            "Time to assemble your pizza with all the toppings you can dream of. Just make sure you act fast.",
+            "Time to pop it into the oven! It should take about 12 to 15 minutes.",
+        ],
+        source: 'https://www.buzzfeed.com/marietelling/pizza-dough-recipe?utm_term=.ioz4kpD7lA#.lsDMVvejlW',
+        author: 'Marie Telling, ClaireKing, Brenda Blanco',
+    },{
+        id:3,
+        dishName: 'Fruit tarts',
+        dishImgSrc: 'https://thekitchenbachelor.com/wp-content/uploads/2021/10/lemon-tartlet-3-IG-Feed-500x500.jpg',
+        dishIngredients: {
+            flour: "1 and 1/4 cup",
+            salt: "1 teaspoon",
+            sugar: "5/6 cup",
+            butter: "12 tablespoon",
+            egg: 1,
+            vanilla: "2 teaspoon",
+            eggYolks: 5,
+            cornStarch: "3 tablespoon",
+            milk: "1 cup",
+            heavyCream: "1 cup",
+        },
+        dishPrepSteps: [
+            "For your dough: get the water to the right temperature to bloom the yeast.",
+            "Make sure your yeast is alive and reacting.",
+            "When it comes to kneading the dough, don't be lazy — and really take the time to do it.",
+            "This is the kneading motion you should go for:",
+            "To know when you're done kneading, press the dough with your finger. If it springs back right away, it's ready.",
+            "Coat the bowl where the dough will rise with olive oil — and coat the top of the dough, too.",
+            "If you can, let the dough rise overnight.",
+            "After the dough has risen, knead for another minute or two to even out the dough and release some of the air bubbles.",
+            "Once you've shaped each ball of dough, cover them with a bit of flour and a towel and let them rise for another hour.",
+            "Before working on your toppings and putting the pizza together, get your oven as hot as it can be.",
+            "And preheat a pan or pizza stone in the oven to create great bottom heat.",
+            "There are several techniques you can use to stretch the dough, but if you want to play it safe, just use your hands to gently stretch it:",
+            "Assemble the pizza on a turned-over baking sheet sprinkled with a bit of semolina.",
+            "Time to assemble your pizza with all the toppings you can dream of. Just make sure you act fast.",
+            "Time to pop it into the oven! It should take about 12 to 15 minutes.",
+        ],
+        source: 'https://youtube.com/shorts/tcdPOV-0oSY?si=o-CjsKtGeOmusteQ',
+        author: 'Jose.elCook',
     }
 ];
 
