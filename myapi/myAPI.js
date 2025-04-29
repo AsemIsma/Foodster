@@ -127,7 +127,170 @@ const dishes = [
         ],
         source: 'https://theculinarytravelguide.com/the-jc100-ratatouille/',
         author: 'Julia Child',
-    }
+    },{
+        id:5,
+        dishName: 'Xiao Long Bao (Soup Dumplings) Recipe',
+        dishImgSrc: 'https://redhousespice.com/wp-content/uploads/2020/06/Xiao-Long-Bao-Soup-Dumplings-13-1024x1536.jpg',
+        dishIngredients: {
+            "whole chicken": "1",
+            "flour": "400g",
+            "water": "200ml",
+            "minced pork": "500g",
+            "soy sauce": "1 tbsp",
+            "sugar": "1 tsp",
+            "salt": "½ tsp",
+            "white pepper": "¼ tsp",
+            "sesame oil": "1 tsp",
+            "minced ginger": "1 tbsp",
+            "minced scallions": "1 tbsp",
+        },
+        dishPrepSteps: [
+            "Place the whole chicken in a well-sealed oven-safe dish (like a Dutch oven).",
+            "Roast at 200°C (392°F) for about 1 hour. The chicken will release a rich broth.",
+            "Collect the broth and refrigerate until it solidifies into a jelly-like consistency.",
+            "Once set, finely chop the aspic into small cubes.",
+            "Gradually add warm water to the flour, mixing until a dough forms.",
+            "Knead the dough until smooth and elastic.",
+            "Cover with a damp cloth and let it rest for at least 30 minutes.",
+            "In a bowl, combine minced pork with soy sauce, Shaoxing wine, sugar, salt, white pepper, sesame oil, ginger, and scallions.",
+            "Mix until the filling becomes sticky and well combined.",
+            "Fold in the finely chopped aspic, ensuring even distribution.​",
+            "Divide the rested dough into small portions and roll each into a thin circle (~8cm diameter).",
+            "Place a spoonful of filling in the center of each wrapper.",
+            "Pleat and seal the edges to form a bun, ensuring it's tightly closed to trap the soup.",
+            "Line a bamboo steamer with parchment paper or cabbage leaves to prevent sticking.",
+            "Place the dumplings inside, ensuring they don't touch each other.",
+            "Steam over boiling water for about 8 minutes."
+        ],
+        source: 'https://redhousespice.com/xiao-long-bao-soup-dumplings/',
+        author: 'Wei Guo',
+    },{
+        "id": 6,
+        "dishName": "BA's Best Lasagna",
+        "dishImgSrc": "https://assets.bonappetit.com/photos/57ac9e8e1b334044149751b2/1:1/w_1600,c_limit/ba-best-lasagna.jpg",
+        "dishIngredients": {
+          "ground pork": "2 lb",
+          "ground beef chuck (20% fat)": "1 lb",
+          "kosher salt": "to taste",
+          "freshly ground black pepper": "to taste",
+          "extra-virgin olive oil": "2 tbsp",
+          "pancetta or thick-cut bacon, finely chopped": "2 oz",
+          "medium yellow onion, finely chopped": "1",
+          "medium carrot, peeled, finely chopped": "1",
+          "celery stalk, finely chopped": "1",
+          "garlic cloves, finely chopped": "4",
+          "tomato paste": "1/4 cup",
+          "whole peeled tomatoes with juices": "2 (28 oz) cans",
+          "whole milk": "1 cup",
+          "unsalted butter": "5 tbsp",
+          "all-purpose flour": "1/4 cup",
+          "whole milk (for béchamel)": "4 cups",
+          "freshly grated nutmeg": "1/4 tsp",
+          "Parmesan cheese, finely grated": "1 1/2 cups",
+          "lasagna noodles (preferably De Cecco)": "1 lb"
+        },
+        "dishPrepSteps": [
+          "Preheat oven to 225°F (107°C).",
+          "In a large bowl, combine ground pork and ground beef. Season with salt and pepper. Form into 18 large meatballs.",
+          "Heat olive oil in a large Dutch oven over medium-high heat. Working in batches, cook meatballs until browned on all sides. Transfer to a plate.",
+          "In the same pot, add pancetta and cook until browned. Add onion, carrot, and celery; cook until softened. Add garlic and cook until fragrant.",
+          "Stir in tomato paste and cook until darkened. Add whole peeled tomatoes with juices, breaking them up with a spoon.",
+          "Return meatballs to the pot. Bring to a simmer, cover, and transfer to the oven. Cook for 2 hours.",
+          "Remove from oven. Using a spoon, break meatballs into small pieces. Stir in 1 cup of milk. Simmer over medium heat until sauce thickens.",
+          "In a saucepan, melt butter over medium heat. Whisk in flour and cook until golden. Gradually whisk in 4 cups of milk. Bring to a boil, reduce heat, and simmer until thickened. Season with nutmeg and salt. Stir in 1 cup of Parmesan cheese.",
+          "Cook lasagna noodles according to package instructions. Drain and set aside.",
+          "Preheat oven to 375°F (190°C). Spread a thin layer of meat sauce in a 13x9\" baking dish. Layer noodles, meat sauce, béchamel, and Parmesan. Repeat layers, ending with béchamel and Parmesan on top.",
+          "Cover with foil and bake for 45 minutes. Remove foil and bake until top is browned and bubbly, about 15 minutes more.",
+          "Let lasagna rest for 30 minutes before serving."
+        ],
+        "source": "https://www.bonappetit.com/recipe/ba-best-lasagna",
+        "author": "Chris Morocco"
+      },{
+        "id": 7,
+        "dishName": "Chicken Alfredo",
+        "dishImgSrc": "https://bellyfull.net/wp-content/uploads/2021/02/Chicken-Alfredo-blog-3.jpg",
+        "dishIngredients": {
+          "fettuccine pasta": "16 ounces",
+          "boneless, skinless chicken breasts": "1 pound",
+          "Italian seasoning": "1 teaspoon",
+          "kosher salt": "3/4 teaspoon",
+          "black pepper": "1/4 teaspoon",
+          "extra-virgin olive oil": "2 tablespoons",
+          "butter": "1 tablespoon",
+          "unsalted butter": "1/2 cup (for sauce)",
+          "heavy whipping cream": "2 cups",
+          "garlic clove, minced": "1",
+          "garlic powder": "3/4 teaspoon",
+          "Italian seasoning (for sauce)": "3/4 teaspoon",
+          "salt (for sauce)": "1/4 teaspoon",
+          "black pepper (for sauce)": "1/4 teaspoon",
+          "Parmesan cheese, freshly grated": "2 cups"
+        },
+        "dishPrepSteps": [
+          "Bring a large pot of salted water to a boil. Cook the fettuccine according to package instructions until al dente. Drain and set aside.",
+          "Season both sides of the chicken breasts with Italian seasoning, kosher salt, and black pepper.",
+          "In a large skillet over medium-high heat, heat the olive oil and butter. Add the seasoned chicken breasts and cook for 4-5 minutes per side, or until golden brown and cooked through. Remove from the skillet and set aside.",
+          "In the same skillet, melt the unsalted butter over medium heat. Add the minced garlic and sauté for about 30 seconds until fragrant.",
+          "Pour in the heavy whipping cream, then add garlic powder, Italian seasoning, salt, and pepper. Stir to combine and bring to a gentle simmer.",
+          "Reduce the heat to low and gradually stir in the freshly grated Parmesan cheese until the sauce is smooth and creamy.",
+          "Slice the cooked chicken into strips.",
+          "Add the cooked fettuccine to the sauce, tossing to coat the pasta evenly.",
+          "Top the pasta with the sliced chicken.",
+          "Serve immediately, garnished with additional Parmesan cheese if desired."
+        ],
+        "source": "https://bellyfull.net/chicken-alfredo-recipe/",
+        "author": "Amy Flanigan"
+      },{
+        "id": 8,
+        "dishName": "Homemade Mac and Cheese",
+        "dishImgSrc": "https://tastesbetterfromscratch.com/wp-content/uploads/2017/10/Mac-and-Cheese-1.jpg",
+        "dishIngredients": {
+          "elbow macaroni": "1/2 lb",
+          "butter": "3 tablespoons",
+          "all-purpose flour": "2 tablespoons",
+          "salt": "1/2 teaspoon",
+          "ground black pepper": "1/8 teaspoon",
+          "milk": "1 1/2 cups",
+          "half and half": "3/4 cup",
+          "shredded cheddar cheese": "2 1/2 cups"
+        },
+        "dishPrepSteps": [
+          "Preheat the oven to 325°F (163°C) and lightly grease an 8-inch square baking dish.",
+          "Cook the elbow macaroni in salted boiling water until al dente. Drain and set aside.",
+          "In a medium saucepan over medium heat, melt the butter.",
+          "Whisk in the flour, salt, and pepper, and cook for 2 minutes to form a roux.",
+          "Gradually whisk in the milk and half and half, stirring constantly until the mixture thickens.",
+          "Remove the saucepan from heat and stir in 1 cup of the shredded cheddar cheese until melted and smooth.",
+          "Add the cooked macaroni to the cheese sauce and stir to coat evenly.",
+          "Pour half of the macaroni and cheese mixture into the prepared baking dish and sprinkle with 1/2 cup of the remaining cheese.",
+          "Add the remaining macaroni and cheese mixture on top and sprinkle with the remaining 1 cup of cheese.",
+          "Bake in the preheated oven for 20-25 minutes, or until the cheese is melted and bubbly."
+        ],
+        "source": "https://tastesbetterfromscratch.com/homemade-mac-and-cheese/",
+        "author": "Lauren Allen"
+      },{
+        "id": 9,
+        "dishName": "Grilled Cheese Sandwich",
+        "dishImgSrc": "https://natashaskitchen.com/wp-content/uploads/2023/02/Grilled-Cheese-Sandwich-3.jpg",
+        "dishIngredients": {
+          "sourdough bread": "2 slices",
+          "salted butter": "2 tablespoons",
+          "cheddar cheese, shredded": "1/2 cup",
+          "mozzarella cheese, shredded": "1/2 cup"
+        },
+        "dishPrepSteps": [
+          "Preheat a skillet over medium heat.",
+          "Butter one side of each slice of bread.",
+          "Place one slice of bread, buttered side down, onto the skillet.",
+          "Top with shredded cheddar and mozzarella cheeses.",
+          "Place the second slice of bread on top, buttered side up.",
+          "Cook until the bottom slice is golden brown, about 2-3 minutes.",
+          "Flip the sandwich and cook the other side until golden brown and the cheese is melted, another 2-3 minutes.",
+          "Remove from skillet, slice in half, and serve immediately."
+        ],
+        "source": "https://natashaskitchen.com/grilled-cheese-sandwich/",
+        "author": "Natasha Kravchuk"
+      }
 ];
 
 app.get('/', (req, res) => {
