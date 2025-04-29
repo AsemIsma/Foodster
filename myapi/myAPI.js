@@ -12,16 +12,16 @@ const dishes = [
         dishName: 'Chocolate cupcakes (Brownie)',
         dishImgSrc: 'https://thecookingfoodie.com/wp-content/uploads/2025/02/IMG_2225-2-1306x1536.jpg',
         dishIngredients: [
-            ["milk",120, "ml"],
-            ["flour",125, "g"],
-            ["cocoa powder", 40, "g"],
-            ["salt", 1/4, "teaspoon"],
-            ["baking soda", 1/2, "teaspoon"],
-            ["egg", 1],
-            ["sugar", 200, "g"],
-            ["oil", 1/3, "cup"],
-            ["espresso", 1/2, "cup"],
-            ["vanilla", 1, "teaspoon"],
+            ["milk: ",120, "ml"],
+            ["flour: ",125, "g"],
+            ["cocoa powder: ", 40, "g"],
+            ["salt: ", 1/4, "teaspoon"],
+            ["baking soda: ", 1/2, "teaspoon"],
+            ["egg: ", 1],
+            ["sugar: ", 200, "g"],
+            ["oil: ", 1/3, "cup"],
+            ["espresso: ", 1/2, "cup"],
+            ["vanilla: ", 1, "teaspoon"],
         ],
         dishPrepSteps: [
             "Preheat oven to 350°F (175°C). Line a 12-cup muffin pan with cupcake liners.",
@@ -38,15 +38,15 @@ const dishes = [
         id:2,
         dishName: 'Great Pizza',
         dishImgSrc: 'https://img.buzzfeed.com/buzzfeed-static/static/2018-07/12/13/asset/buzzfeed-prod-web-06/sub-buzz-1716-1531418025-2.png?downsize=600:*&output-format=auto&output-quality=auto',
-        dishIngredients: {
-            flour: "7 and 1/4 cup",
-            salt: "1 and 1/2 teaspoon",
-            tomatoSauce: "28 ounces",
-            cheese: "200g",
-            yeast: "2 teaspoon",
-            sugar: "1 teaspoon",
-            oliveOil: "6 tablespoon",
-        },
+        dishIngredients: [
+            ["flour", 915, "g"],  // 7.25 cups ≈ 915g
+            ["salt", 1.5, "teaspoon"],
+            ["tomato sauce", 793, "g"], // 28 oz
+            ["cheese", 200, "g"],
+            ["yeast", 2, "teaspoon"],
+            ["sugar", 1, "teaspoon"],
+            ["olive oil", 6, "tablespoon"]
+          ],
         dishPrepSteps: [
             "For your dough: get the water to the right temperature to bloom the yeast.",
             "Make sure your yeast is alive and reacting.",
@@ -70,18 +70,18 @@ const dishes = [
         id:3,
         dishName: 'Fruit tarts',
         dishImgSrc: 'https://thekitchenbachelor.com/wp-content/uploads/2021/10/lemon-tartlet-3-IG-Feed-500x500.jpg',
-        dishIngredients: {
-            "flour": "1 and 1/4 cup",
-            "salt": "1 teaspoon",
-            "sugar": "5/6 cup",
-            "butter": "12 tablespoon",
-            "egg": 1,
-            "vanilla": "2 teaspoon",
-            "eggYolks": 5,
-            "cornStarch": "3 tablespoon",
-            "milk": "1 cup",
-            "heavyCream": "1 cup",
-        },
+        dishIngredients: [
+            ["flour", 156, "g"], // 1.25 cups
+            ["salt", 1, "teaspoon"],
+            ["sugar", 133, "g"], // 5/6 cup
+            ["butter", 170, "g"], // 12 tbsp
+            ["egg", 1, "unit"],
+            ["vanilla", 2, "teaspoon"],
+            ["egg yolks", 5, "unit"],
+            ["cornstarch", 24, "g"], // 3 tbsp
+            ["milk", 240, "ml"],
+            ["heavy cream", 240, "ml"]
+          ],
         dishPrepSteps: [
             "For your dough: get the water to the right temperature to bloom the yeast.",
             "Make sure your yeast is alive and reacting.",
@@ -105,18 +105,18 @@ const dishes = [
         id:4,
         dishName: 'Ratatouille',
         dishImgSrc: 'https://cdn.loveandlemons.com/wp-content/uploads/2024/07/ratatouille-recipe.jpg',
-        dishIngredients: {
-            "olive oil": "2 tbsp",
-            "salt": "1 teaspoon",
-            "eggplant": "1",
-            "butter": "12 tablespoon",
-            "zucchini": 1,
-            "bell pepper": "1",
-            "onion": 1,
-            "garlic": "4 cloves",
-            "tomatoes": "4",
-            "black pepper": "1/8 tsp",
-        },
+        dishIngredients: [
+            ["olive oil", 2, "tablespoon"],
+            ["salt", 1, "teaspoon"],
+            ["eggplant", 1, "unit"],
+            ["butter", 170, "g"], // 12 tbsp
+            ["zucchini", 1, "unit"],
+            ["bell pepper", 1, "unit"],
+            ["onion", 1, "unit"],
+            ["garlic", 4, "cloves"],
+            ["tomatoes", 4, "unit"],
+            ["black pepper", 0.125, "teaspoon"]
+          ],
         dishPrepSteps: [
             "Prep and salt the eggplant",
             "Sauté vegetables separately",
@@ -131,19 +131,19 @@ const dishes = [
         id:5,
         dishName: 'Xiao Long Bao (Soup Dumplings) Recipe',
         dishImgSrc: 'https://redhousespice.com/wp-content/uploads/2020/06/Xiao-Long-Bao-Soup-Dumplings-13-1024x1536.jpg',
-        dishIngredients: {
-            "whole chicken": "1",
-            "flour": "400g",
-            "water": "200ml",
-            "minced pork": "500g",
-            "soy sauce": "1 tbsp",
-            "sugar": "1 tsp",
-            "salt": "½ tsp",
-            "white pepper": "¼ tsp",
-            "sesame oil": "1 tsp",
-            "minced ginger": "1 tbsp",
-            "minced scallions": "1 tbsp",
-        },
+        dishIngredients: [
+            ["whole chicken", 1, "unit"],
+            ["flour", 400, "g"],
+            ["water", 200, "ml"],
+            ["minced pork", 500, "g"],
+            ["soy sauce", 15, "ml"], // 1 tbsp
+            ["sugar", 5, "g"], // 1 tsp
+            ["salt", 2.5, "g"], // ½ tsp
+            ["white pepper", 0.25, "teaspoon"],
+            ["sesame oil", 5, "ml"], // 1 tsp
+            ["minced ginger", 1, "tablespoon"],
+            ["minced scallions", 1, "tablespoon"]
+          ],
         dishPrepSteps: [
             "Place the whole chicken in a well-sealed oven-safe dish (like a Dutch oven).",
             "Roast at 200°C (392°F) for about 1 hour. The chicken will release a rich broth.",
@@ -168,27 +168,27 @@ const dishes = [
         "id": 6,
         "dishName": "BA's Best Lasagna",
         "dishImgSrc": "https://assets.bonappetit.com/photos/656f48d75b552734225041ba/1:1/w_2560%2Cc_limit/20231120-WEB-Lasanga-6422.jpg",
-        "dishIngredients": {
-          "ground pork": "2 lb",
-          "ground beef chuck (20% fat)": "1 lb",
-          "kosher salt": "to taste",
-          "freshly ground black pepper": "to taste",
-          "extra-virgin olive oil": "2 tbsp",
-          "pancetta or thick-cut bacon, finely chopped": "2 oz",
-          "medium yellow onion, finely chopped": "1",
-          "medium carrot, peeled, finely chopped": "1",
-          "celery stalk, finely chopped": "1",
-          "garlic cloves, finely chopped": "4",
-          "tomato paste": "1/4 cup",
-          "whole peeled tomatoes with juices": "2 (28 oz) cans",
-          "whole milk": "1 cup",
-          "unsalted butter": "5 tbsp",
-          "all-purpose flour": "1/4 cup",
-          "whole milk (for béchamel)": "4 cups",
-          "freshly grated nutmeg": "1/4 tsp",
-          "Parmesan cheese, finely grated": "1 1/2 cups",
-          "lasagna noodles (preferably De Cecco)": "1 lb"
-        },
+        dishIngredients: [
+            ["ground pork", 907, "g"], // 2 lb
+            ["ground beef chuck", 454, "g"], // 1 lb
+            ["kosher salt", "to taste", "unit"],
+            ["black pepper", "to taste", "unit"],
+            ["olive oil", 2, "tablespoon"],
+            ["pancetta/bacon", 57, "g"], // 2 oz
+            ["onion", 1, "unit"],
+            ["carrot", 1, "unit"],
+            ["celery", 1, "stalk"],
+            ["garlic", 4, "cloves"],
+            ["tomato paste", 60, "ml"], // 1/4 cup
+            ["canned tomatoes", 1580, "g"], // 2x28 oz
+            ["whole milk (for sauce)", 1, "cup"],
+            ["butter", 70, "g"], // 5 tbsp
+            ["flour", 30, "g"], // 1/4 cup
+            ["milk (for béchamel)", 960, "ml"], // 4 cups
+            ["nutmeg", 0.25, "teaspoon"],
+            ["Parmesan cheese", 150, "g"], // 1.5 cups
+            ["lasagna noodles", 454, "g"] // 1 lb
+          ],
         "dishPrepSteps": [
           "Preheat oven to 225°F (107°C).",
           "In a large bowl, combine ground pork and ground beef. Season with salt and pepper. Form into 18 large meatballs.",
@@ -209,23 +209,23 @@ const dishes = [
         "id": 7,
         "dishName": "Chicken Alfredo",
         "dishImgSrc": "https://bellyfull.net/wp-content/uploads/2021/02/Chicken-Alfredo-blog-3.jpg",
-        "dishIngredients": {
-          "fettuccine pasta": "16 ounces",
-          "boneless, skinless chicken breasts": "1 pound",
-          "Italian seasoning": "1 teaspoon",
-          "kosher salt": "3/4 teaspoon",
-          "black pepper": "1/4 teaspoon",
-          "extra-virgin olive oil": "2 tablespoons",
-          "butter": "1 tablespoon",
-          "unsalted butter": "1/2 cup (for sauce)",
-          "heavy whipping cream": "2 cups",
-          "garlic clove, minced": "1",
-          "garlic powder": "3/4 teaspoon",
-          "Italian seasoning (for sauce)": "3/4 teaspoon",
-          "salt (for sauce)": "1/4 teaspoon",
-          "black pepper (for sauce)": "1/4 teaspoon",
-          "Parmesan cheese, freshly grated": "2 cups"
-        },
+        dishIngredients: [
+            ["fettuccine", 454, "g"], // 16 oz
+            ["chicken breast", 454, "g"], // 1 lb
+            ["Italian seasoning", 1, "teaspoon"],
+            ["kosher salt", 0.75, "teaspoon"],
+            ["black pepper", 0.25, "teaspoon"],
+            ["olive oil", 2, "tablespoon"],
+            ["butter", 14, "g"], // 1 tbsp
+            ["unsalted butter (sauce)", 113, "g"], // 1/2 cup
+            ["heavy cream", 480, "ml"],
+            ["garlic", 1, "clove"],
+            ["garlic powder", 0.75, "teaspoon"],
+            ["Italian seasoning (sauce)", 0.75, "teaspoon"],
+            ["salt (sauce)", 0.25, "teaspoon"],
+            ["black pepper (sauce)", 0.25, "teaspoon"],
+            ["Parmesan cheese", 200, "g"] // ~2 cups grated
+          ],
         "dishPrepSteps": [
           "Bring a large pot of salted water to a boil. Cook the fettuccine according to package instructions until al dente. Drain and set aside.",
           "Season both sides of the chicken breasts with Italian seasoning, kosher salt, and black pepper.",
@@ -244,16 +244,16 @@ const dishes = [
         "id": 8,
         "dishName": "Homemade Mac and Cheese",
         "dishImgSrc": "https://tastesbetterfromscratch.com/wp-content/uploads/2014/07/Mac-and-Cheese-7.jpg",
-        "dishIngredients": {
-          "elbow macaroni": "1/2 lb",
-          "butter": "3 tablespoons",
-          "all-purpose flour": "2 tablespoons",
-          "salt": "1/2 teaspoon",
-          "ground black pepper": "1/8 teaspoon",
-          "milk": "1 1/2 cups",
-          "half and half": "3/4 cup",
-          "shredded cheddar cheese": "2 1/2 cups"
-        },
+        dishIngredients: [
+            ["elbow macaroni", 227, "g"], // 1/2 lb
+            ["butter", 43, "g"], // 3 tbsp
+            ["flour", 16, "g"], // 2 tbsp
+            ["salt", 0.5, "teaspoon"],
+            ["black pepper", 0.125, "teaspoon"],
+            ["milk", 360, "ml"],
+            ["half and half", 180, "ml"],
+            ["cheddar cheese", 250, "g"] // ~2.5 cups shredded
+          ],
         "dishPrepSteps": [
           "Preheat the oven to 325°F (163°C) and lightly grease an 8-inch square baking dish.",
           "Cook the elbow macaroni in salted boiling water until al dente. Drain and set aside.",
@@ -272,12 +272,12 @@ const dishes = [
         "id": 9,
         "dishName": "Grilled Cheese Sandwich",
         "dishImgSrc": "https://natashaskitchen.com/wp-content/uploads/2021/08/Grilled-Cheese-Sandwich-3.jpg",
-        "dishIngredients": {
-          "sourdough bread": "2 slices",
-          "salted butter": "2 tablespoons",
-          "cheddar cheese, shredded": "1/2 cup",
-          "mozzarella cheese, shredded": "1/2 cup"
-        },
+        dishIngredients: [
+            ["sourdough bread", 2, "slices"],
+            ["salted butter", 28, "g"], // 2 tbsp
+            ["cheddar cheese", 56, "g"], // 1/2 cup shredded
+            ["mozzarella cheese", 56, "g"] // 1/2 cup shredded
+          ],
         "dishPrepSteps": [
           "Preheat a skillet over medium heat.",
           "Butter one side of each slice of bread.",
