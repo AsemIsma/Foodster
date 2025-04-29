@@ -87,6 +87,8 @@ const dishes = [
             "Add 8 tbsp of butter in dry mixture",
             "Mix it until it looks like sand",
             "Add 1 egg and vanilla and mix until combined",
+            "Role the dough until 1/4 inch thick",
+            "Fit the dough into tart molds",
             "Cook dough 375F for 16-18 minutes or until lightly golden",
             "Combine pastry cream ingredients in a bowl (except butter)",
             "Cook over medium heat STIRRING until it starts to bubble",
