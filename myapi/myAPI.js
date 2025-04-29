@@ -19,9 +19,9 @@ const dishes = [
             ["baking soda: ", 1/2, "teaspoon"],
             ["egg: ", 1, "unit"],
             ["sugar: ", 200, "g"],
-            ["oil: ", 0.33, "cup"],
-            ["espresso: ", 1/2, "cup"],
-            ["vanilla: ", 1, "teaspoon"],
+            ["oil: ", 79, "ml"],          // 0.33 cup → 79 ml
+            ["espresso: ", 120, "ml"],    // 1/2 cup → 120 ml
+            ["vanilla: ", 1, "teaspoon"]
         ],
         dishPrepSteps: [
             "Preheat oven to 350°F (175°C). Line a 12-cup muffin pan with cupcake liners.",
