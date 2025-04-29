@@ -17,7 +17,7 @@ const dishes = [
             ["cocoa powder: ", 40, "g"],
             ["salt: ", 1/4, "teaspoon"],
             ["baking soda: ", 1/2, "teaspoon"],
-            ["egg: ", 1],
+            ["egg: ", 1, "unit"],
             ["sugar: ", 200, "g"],
             ["oil: ", 1/3, "cup"],
             ["espresso: ", 1/2, "cup"],
