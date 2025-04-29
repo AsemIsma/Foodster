@@ -19,7 +19,7 @@ const dishes = [
             ["baking soda: ", 1/2, "teaspoon"],
             ["egg: ", 1, "unit"],
             ["sugar: ", 200, "g"],
-            ["oil: ", 1/3, "cup"],
+            ["oil: ", 0.33, "cup"],
             ["espresso: ", 1/2, "cup"],
             ["vanilla: ", 1, "teaspoon"],
         ],
