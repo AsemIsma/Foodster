@@ -167,7 +167,7 @@ const dishes = [
     },{
         "id": 6,
         "dishName": "BA's Best Lasagna",
-        "dishImgSrc": "https://assets.bonappetit.com/photos/57ac9e8e1b334044149751b2/1:1/w_1600,c_limit/ba-best-lasagna.jpg",
+        "dishImgSrc": "https://assets.bonappetit.com/photos/656f48d75b552734225041ba/1:1/w_2560%2Cc_limit/20231120-WEB-Lasanga-6422.jpg",
         "dishIngredients": {
           "ground pork": "2 lb",
           "ground beef chuck (20% fat)": "1 lb",
@@ -243,7 +243,7 @@ const dishes = [
       },{
         "id": 8,
         "dishName": "Homemade Mac and Cheese",
-        "dishImgSrc": "https://tastesbetterfromscratch.com/wp-content/uploads/2017/10/Mac-and-Cheese-1.jpg",
+        "dishImgSrc": "https://tastesbetterfromscratch.com/wp-content/uploads/2014/07/Mac-and-Cheese-7.jpg",
         "dishIngredients": {
           "elbow macaroni": "1/2 lb",
           "butter": "3 tablespoons",
@@ -271,7 +271,7 @@ const dishes = [
       },{
         "id": 9,
         "dishName": "Grilled Cheese Sandwich",
-        "dishImgSrc": "https://natashaskitchen.com/wp-content/uploads/2023/02/Grilled-Cheese-Sandwich-3.jpg",
+        "dishImgSrc": "https://natashaskitchen.com/wp-content/uploads/2021/08/Grilled-Cheese-Sandwich-3.jpg",
         "dishIngredients": {
           "sourdough bread": "2 slices",
           "salted butter": "2 tablespoons",
