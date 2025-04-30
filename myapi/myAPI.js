@@ -23,6 +23,7 @@ const dishes = [
             ["espresso: ", 120, "ml"],    // 1/2 cup → 120 ml
             ["vanilla: ", 1, "teaspoon"]
         ],
+        category: "dessert",
         dishPrepSteps: [
             "Preheat oven to 350°F (175°C). Line a 12-cup muffin pan with cupcake liners.",
             "In a large bowl sift flour, cocoa powder, baking soda and salt. Add sugar, stir and set aside.",
@@ -47,6 +48,7 @@ const dishes = [
             ["sugar: ", 1, "teaspoon"],
             ["olive oil: ", 6, "tablespoon"]
           ],
+          category: "main dish",
         dishPrepSteps: [
             "For your dough: get the water to the right temperature to bloom the yeast.",
             "Make sure your yeast is alive and reacting.",
@@ -82,6 +84,7 @@ const dishes = [
             ["milk: ", 240, "ml"],
             ["heavy cream: ", 240, "ml"]
           ],
+          category: "dessert",
         dishPrepSteps: [
             "Mix dry ingredients",
             "Add 8 tbsp of butter in dry mixture",
@@ -113,6 +116,7 @@ const dishes = [
             ["tomatoes: ", 4, "unit"],
             ["black pepper: ", 0.125, "teaspoon"]
           ],
+          category: "main dish",
         dishPrepSteps: [
             "Prep and salt the eggplant",
             "Sauté vegetables separately",
@@ -140,6 +144,7 @@ const dishes = [
             ["minced ginger: ", 1, "tablespoon"],
             ["minced scallions: ", 1, "tablespoon"]
           ],
+          category: "main dish",
         dishPrepSteps: [
             "Place the whole chicken in a well-sealed oven-safe dish (like a Dutch oven).",
             "Roast at 200°C (392°F) for about 1 hour. The chicken will release a rich broth.",
@@ -185,6 +190,7 @@ const dishes = [
             ["Parmesan cheese: ", 150, "g"], // 1.5 cups
             ["lasagna noodles: ", 454, "g"] // 1 lb
           ],
+          category: "main dish",
         "dishPrepSteps": [
           "Preheat oven to 225°F (107°C).",
           "In a large bowl, combine ground pork and ground beef. Season with salt and pepper. Form into 18 large meatballs.",
@@ -222,6 +228,7 @@ const dishes = [
             ["black pepper: ", 0.25, "teaspoon"],
             ["Parmesan cheese: ", 200, "g"] // ~2 cups grated
           ],
+          category: "main dish",
         "dishPrepSteps": [
           "Bring a large pot of salted water to a boil. Cook the fettuccine according to package instructions until al dente. Drain and set aside.",
           "Season both sides of the chicken breasts with Italian seasoning, kosher salt, and black pepper.",
@@ -250,6 +257,7 @@ const dishes = [
             ["half and half: ", 180, "ml"],
             ["cheddar cheese: ", 250, "g"] // ~2.5 cups shredded
           ],
+          category: "main dish",
         "dishPrepSteps": [
           "Preheat the oven to 325°F (163°C) and lightly grease an 8-inch square baking dish.",
           "Cook the elbow macaroni in salted boiling water until al dente. Drain and set aside.",
@@ -274,6 +282,7 @@ const dishes = [
             ["cheddar cheese: ", 56, "g"], // 1/2 cup shredded
             ["mozzarella cheese: ", 56, "g"] // 1/2 cup shredded
           ],
+          category: "snack",
         "dishPrepSteps": [
           "Preheat a skillet over medium heat.",
           "Butter one side of each slice of bread.",
